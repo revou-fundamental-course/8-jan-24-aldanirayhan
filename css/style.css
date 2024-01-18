@@ -64,14 +64,14 @@ button:hover {
 }
 
 #areaValue, #perimeterValue {
-    color: #4caf50;
+    color: #3498db;
 }
 
 /* Gaya untuk persegi saat di-hover */
 .square {
     width: 50px;
     height: 50px;
-    border: 5px solid transparent;
+    border: 5px solid #4caf50;
     border-radius: 5px;
     margin: 20px auto;
     transition: border-color 0.5s ease; /* Efek transisi untuk perubahan warna border */
@@ -79,4 +79,8 @@ button:hover {
 
 .square:hover {
     border-color: #3498db; /* Warna border saat di-hover */
+}
+
+.btnHitung {
+    margin-bottom: 10px;
 }
